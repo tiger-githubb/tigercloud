@@ -29,7 +29,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("Countdown").innerHTML = "EXPIRED";
+    document.getElementById("Countdown").innerHTML = "Application disponible";
   }
 }, 1000);
 
